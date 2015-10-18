@@ -21,6 +21,12 @@ title: code and block test
         ```
 
    2. The key is to indent your fenced block by **(4 * bullet_indent_level)** spaces.
+
+       ```javascript
+         var x = 1 + 2;
+         console.log(x);
+       ```
+
    3. Also need to put a separating newline above and below the fenced block.
 
 ---
