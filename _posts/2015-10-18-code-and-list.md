@@ -3,7 +3,17 @@ layout: post
 title: code and block test
 ---
 
-## Fenced code blocks inside ordered and unordered lists
+## 1. Fenced code blocks inside ordered and unordered lists
+
+```
+sudo apt-get
+```
+
+## 2. xxxx
+
+```
+sudo reboot
+```
 
 1. This is a numbered list.
 2. I'm going to include a fenced code block as part of this bullet:
@@ -22,10 +32,10 @@ title: code and block test
 
    2. The key is to indent your fenced block by **(4 * bullet_indent_level)** spaces.
 
-       ```javascript
+        ```javascript
          var x = 1 + 2;
          console.log(x);
-       ```
+        ```
 
    3. Also need to put a separating newline above and below the fenced block.
 
